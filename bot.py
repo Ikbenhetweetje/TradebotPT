@@ -10,7 +10,7 @@ import discord
 
 client = discord.Client()
 
-channelID = 854502157806338078
+channelID = 756857853918052433
 
 
 @client.event
