@@ -12,7 +12,6 @@ client = discord.Client()
 
 channelID = 854502157806338078
 
-TOKEN = os.getenv("Token")
 
 @client.event
 async def on_message(message):
@@ -35,4 +34,4 @@ async def on_message(message):
 
 
 
-client.run(TOKEN)
+client.run(os.environ['Token'])
